@@ -138,5 +138,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         nextViewController.asset = self.fetchResult[indexPath.row]
         print("???")
     }
+    
+    // MARK: - IBActions
+    @IBAction func touchUpRefreshButton(_ sender: Any) {
+        tableView.reloadSections(IndexSet(0...0), with: .automatic)
+    }
 }
 
