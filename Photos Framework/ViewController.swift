@@ -123,7 +123,20 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
     }
     
-    // MARK: - IBActions
-
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let nextViewController: ImageZoomViewController = segue.destination as? ImageZoomViewController else {
+            return
+        }
+        print("?")
+        
+        guard let indexPath: IndexPath = self.tableView.indexPathForSelectedRow else {
+            return
+        }
+        print("??")
+        
+        nextViewController.asset = self.fetchResult[indexPath.row]
+        print("???")
+    }
 }
 

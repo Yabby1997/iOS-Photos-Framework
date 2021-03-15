@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D6F16DB25FE1C690097540B /* ImageZoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6F16DA25FE1C690097540B /* ImageZoomViewController.swift */; };
 		1DD9037425FDE1D500BA6228 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9037325FDE1D500BA6228 /* AppDelegate.swift */; };
 		1DD9037625FDE1D500BA6228 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9037525FDE1D500BA6228 /* SceneDelegate.swift */; };
 		1DD9037825FDE1D500BA6228 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD9037725FDE1D500BA6228 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D6F16DA25FE1C690097540B /* ImageZoomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageZoomViewController.swift; sourceTree = "<group>"; };
 		1DD9037025FDE1D500BA6228 /* Photos Framework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Photos Framework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DD9037325FDE1D500BA6228 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DD9037525FDE1D500BA6228 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				1DD9037C25FDE1D700BA6228 /* Assets.xcassets */,
 				1DD9037E25FDE1D700BA6228 /* LaunchScreen.storyboard */,
 				1DD9038125FDE1D700BA6228 /* Info.plist */,
+				1D6F16DA25FE1C690097540B /* ImageZoomViewController.swift */,
 			);
 			path = "Photos Framework";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 				1DD9037825FDE1D500BA6228 /* ViewController.swift in Sources */,
 				1DD9037425FDE1D500BA6228 /* AppDelegate.swift in Sources */,
 				1DD9037625FDE1D500BA6228 /* SceneDelegate.swift in Sources */,
+				1D6F16DB25FE1C690097540B /* ImageZoomViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
